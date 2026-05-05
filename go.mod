@@ -16,12 +16,12 @@ require (
 	github.com/spf13/pflag v1.0.10
 	github.com/stretchr/testify v1.11.1
 	golang.org/x/net v0.53.0
-	golang.org/x/time v0.14.0
+	golang.org/x/time v0.15.0
 	gopkg.in/evanphx/json-patch.v4 v4.13.0
 	gopkg.in/inf.v0 v0.9.1
 	k8s.io/klog/v2 v2.140.0
 	k8s.io/kube-openapi v0.0.0-20260502001324-b7f5293f4787
-	k8s.io/streaming v0.0.0-20260424110149-99242c80ea4f
+	k8s.io/streaming v0.0.0
 	k8s.io/utils v0.0.0-20260210185600-b8788abfbbc2
 	sigs.k8s.io/json v0.0.0-20250730193827-2d320260d730
 	sigs.k8s.io/randfill v1.0.0
@@ -60,3 +60,5 @@ require (
 	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
+
+replace k8s.io/streaming => ../streaming
